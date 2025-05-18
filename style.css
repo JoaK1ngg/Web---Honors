@@ -80,6 +80,24 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  color: var(--text);
+}
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 300px;
+}
+#contactForm input, #contactForm textarea, #contactForm button {
+  padding: 0.75rem;
+  font-size: 1rem;
+}
 
 body.dark-mode {
   background-image: url("images/fondo-oscuro.jpg");
