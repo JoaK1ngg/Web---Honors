@@ -74,16 +74,15 @@ body {
   font-family: Arial, sans-serif;
   background-image: url("images/fondo-claro.jpg");
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
-  transition: background 0.3s ease, color 0.3s ease;
+  background-position: center;
+  min-height: 85vh;
+  transition: background-color 0.3s, color 0.3s;
 }
+
 
 body.dark-mode {
   background-image: url("images/fondo-oscuro.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 /* Responsive */
